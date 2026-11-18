@@ -15,7 +15,7 @@ st.set_page_config(page_title="Student Council Finance Dashboard", page_icon="ðŸ
 # ----------------------------------------------------------------------------
 # Settings
 # ----------------------------------------------------------------------------
-CSV_PATH = Path(__file__).parent / "logIn_info.csv"   # keep the CSVs and logo next to this file
+CSV_PATH = Path(__file__).parent / "login_info.csv"   # keep the CSVs and logo next to this file
 STATEMENT_PATH = Path(__file__).parent / "Student_council_bank_statements.csv"
 LOGO_PATH = Path(__file__).parent / "psc_logo.png"
 MAX_ATTEMPTS = 5          # wrong tries before a short lock
